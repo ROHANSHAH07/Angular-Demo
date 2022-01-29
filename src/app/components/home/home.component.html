@@ -1,0 +1,62 @@
+<!-- <p>Hi,{{name}}!!!</p>
+
+<!-- <button (click)="getdata('Rohan')">Click Here</button> -->
+
+<!-- <input type="text" #box>
+
+<p>Enter Value is :{{text}}</p>
+
+<button (click)="getname(box.value)">Click</button> -->
+
+<!-- <app-about></app-about>
+<app-contact></app-contact> -->
+
+
+<!-- <button (click)="getdata('add')">++</button>
+<br><br>
+
+<button (click)="getdata('minus')">--</button>
+<p>{{count}}</p> -->
+
+<!-- <input type="text"  disabled={{disabled}}>
+
+<button (click)="make()">click</button>
+
+<br><br>
+
+
+<input type="text" [disabled]=disabled>
+
+<button (click)="do()">Do</button> -->
+
+<!-- <h1 *ngIf="show else elseblock"> Hi Rohan</h1>
+
+<ng-template #elseblock>Hi guest</ng-template> -->
+
+
+<!-- <div [ngSwitch]="color">
+    <h1 *ngSwitchCase="'red'" style="color: red;">Red Color</h1>
+    <h1 *ngSwitchcase="'green'" style="color: green;">Green Color</h1>
+</div> -->
+
+<!-- <form #data="ngForm" (ngSubmit)="getdata(data.value)">
+    <input type="text" ngModel placeholder="Enter Name" name="name">
+    <br><br>
+    <input type="password" ngModel placeholder="Enter password" name="password">
+    <br><br>
+    <button>Register</button>
+</form> -->
+
+
+<input type="text " placeholder="Enter task" #task name="task">
+<br><br>
+<button (click)="addTask(task.value)">Add task</button>
+
+<br><br>
+
+<ul *ngFor="let d of list">
+    <li>{{d.name}}</li>&nbsp; &nbsp; <button (click)="remove(d.id)">Remove</button>
+</ul>
+ 
+
+ 
